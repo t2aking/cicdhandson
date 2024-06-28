@@ -15,7 +15,7 @@ func main() {
 	router.Run(":8080")
 }
 
-functmakeGreeting(name string) string {
+funct makeGreeting(name string) string {
 	return fmt.Sprintf("Hello,%d", name)
 }
 
