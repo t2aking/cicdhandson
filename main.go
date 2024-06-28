@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"net/http"
 	"github.com/gin-gonic/gin"
+	"net/http"
 )
 
 func main() {
@@ -18,4 +18,3 @@ func main() {
 func makeGreeting(name string) string {
 	return fmt.Sprintf("Hello,%d", name)
 }
-
