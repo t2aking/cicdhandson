@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"net/http"
 	"github.com/gin-gonic/gin"
+	"net/http"
 )
 
 func main() {
@@ -15,7 +15,6 @@ func main() {
 	router.Run(":8080")
 }
 
-functmakeGreeting(name string) string {
-	return fmt.Sprintf("Hello,%d", name)
+func makeGreeting(name string) string {
+	return fmt.Sprintf("Hello,%s", name)
 }
-
